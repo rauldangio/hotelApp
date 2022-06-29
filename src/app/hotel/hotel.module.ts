@@ -5,6 +5,8 @@ import { HotelRoutingModule } from './hotel-routing.module';
 import { HotelComponent } from './hotel.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
+import {MatSelectModule} from '@angular/material/select';
+
 
 
 
@@ -17,7 +19,10 @@ import {MatButtonModule} from '@angular/material/button';
     CommonModule,
     HotelRoutingModule,
     MatInputModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSelectModule
   ]
 })
-export class HotelModule { }
+export class HotelModule {
+
+ }

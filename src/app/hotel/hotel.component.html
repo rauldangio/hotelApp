@@ -1,7 +1,53 @@
 <div class="primeira-metade">
-<div class="titulo">
-  <h1>Reserve suas ferias com Delphi hoteis</h1>
-  <p>Encontre os melhores hoteis para <strong>você</strong></p>
+  <div class="titulo">
+    <h1>Reserve suas ferias com Delphi hoteis</h1>
+    <p>Encontre os melhores hoteis para <strong>você</strong></p>
+  </div>
+  <div class="primeiro-hotel">
+    <img
+      src="https://m7g2b8q3.stackpathcdn.com/wp-content/uploads/2018/06/melhores-hoteis-cordoba-nh.jpg"
+      alt=""
+    />
+    <div class="registro">
+      <h2>Faça seu Registro!</h2>
+      <div class="inputs">
 
-</div>
+        <h4>Dia da entrada ao Hotel</h4>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Data de Entrada</mat-label>
+          <input matInput />
+        </mat-form-field>
+        <h4>Dia da saida ao Hotel</h4>
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Data de Saida</mat-label>
+          <input matInput />
+        </mat-form-field>
+
+        <h4>Quantidade de Adultos</h4>
+        <mat-form-field appearance="fill">
+          <mat-label>Adultos</mat-label>
+          <mat-select>
+            <mat-option *ngFor="let adulto of adultos" [value]="adulto.value">
+              {{ adulto.viewValue }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <h4>quantidade de crianças</h4>
+        <mat-form-field appearance="fill">
+          <mat-label> Crianças </mat-label>
+          <mat-select>
+            <mat-option
+              *ngFor="let crianca of criancas"
+              [value]="crianca.valor"
+            >
+              {{ crianca.valoraVer }}
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <button mat-raised-button color="warn" class="botao">Checar Disponibilidade</button>
+      </div>
+    </div>
+  </div>
 </div>
