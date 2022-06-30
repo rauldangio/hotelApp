@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.toolbar-1{
+  a{
+    text-decoration: none;
+  }
+  span{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  display: flex;
+    justify-content: center;
+    background-color: rgb(155, 5, 5);
+}
+
+.toolbar-2{
+  display:flex;
+  justify-content: center;
+  a{
+    padding: 2rem;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  background-color: rgb(212, 9, 9) ;
+}
+
+.toolbar-2{
+  a:hover{
+    color: #000;
+  }
+}

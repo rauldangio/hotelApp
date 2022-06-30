@@ -5,17 +5,32 @@
 }
 
 .titulo{
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  h1{
+    strong{
+      color: rgb(155,5,5);
+    }
+  }
+  p{
+    font-size: 16px;
+    strong{
+      color: rgb(212,9,9);
+    }
+  }
 }
 
 
 .botao{
   border: 1px solid black;
   border-radius: 0%;
+}
+
+.botao:hover{
+  background-color: rgb(155,5,5);
 }
 
 .primeiro-hotel{
@@ -82,4 +97,36 @@
     border: 1px solid grey;
 }
 
+.segunda-metade-titulo{
+display: flex;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 0.4px solid #000;
+  width: 20%;
+  justify-content: center;
+  margin-left: 40%;
+  color:rgb(155,5,5);
+  font-weight: bold ;
+}
 
+
+mat-tab-group{
+  mat-tab{
+    color: rgb(212,9,9);
+  }
+}
+
+.card-fotter{
+
+}
+
+.card{
+  background-color: rgb(155,5,5);
+  color: white;
+  mat-card-subtitle{
+    color: white;
+  }
+  mat-card-footer{
+    margin-left: 0px;
+  }
+}
