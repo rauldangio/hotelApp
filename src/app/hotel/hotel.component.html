@@ -9,13 +9,12 @@
       alt=""
     />
     <div class="registro">
-      <h2>Faça seu Registro!</h2>
       <div class="inputs">
-
+        <h2>Faça seu Registro!</h2>
         <h4>Dia da entrada ao Hotel</h4>
-        <mat-form-field class="example-full-width" appearance="fill">
+        <mat-form-field appearance="fill">
           <mat-label>Data de Entrada</mat-label>
-          <input matInput />
+          <input matInput/>
         </mat-form-field>
         <h4>Dia da saida ao Hotel</h4>
         <mat-form-field class="example-full-width" appearance="fill">
@@ -46,8 +45,131 @@
           </mat-select>
         </mat-form-field>
 
-        <button mat-raised-button color="warn" class="botao">Checar Disponibilidade</button>
+        <button mat-raised-button color="warn" class="botao">
+          Checar Disponibilidade
+        </button>
       </div>
     </div>
   </div>
+</div>
+
+<div class="segunda-metade">
+  <h1 class="segunda-metade-titulo">Hoteis Populares</h1>
+  <mat-tab-group mat-align-tabs="center">
+    <mat-tab label="Egito">
+        <div class="primeiro-hotel-e">
+          <mat-card class="card">
+            <mat-card-header>
+              <mat-card-title>Fibonnaci</mat-card-title>
+              <mat-card-subtitle>Cairo, Egito</mat-card-subtitle>
+            </mat-card-header>
+            <img
+              matCardImage
+              src="https://www.queroviajarmais.com/wp-content/uploads/2020/08/hotel-piramides-do-egito.jpg" class="imagem-hotel"
+            />
+            <mat-card-content>
+              Hotel 5 estrelas, com café da manhã gratuito!
+            </mat-card-content>
+            <mat-card-footer> 3222$ Por dia </mat-card-footer>
+          </mat-card>
+              <div class="registro-hotel">
+            <div class="inputs-hotel">
+              <h2>Faça seu Registro!</h2>
+              <h4>Dia da entrada ao Hotel</h4>
+              <mat-form-field appearance="fill">
+                <mat-label>Data de Entrada</mat-label>
+                <input matInput/>
+              </mat-form-field>
+              <h4>Dia da saida ao Hotel</h4>
+              <mat-form-field class="example-full-width" appearance="fill">
+                <mat-label>Data de Saida</mat-label>
+                <input matInput />
+              </mat-form-field>
+              <button mat-raised-button color="warn" class="botao">
+                Checar Disponibilidade
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+
+    </mat-tab>
+
+    <mat-tab label="China">
+      <div class="primeiro-hotel-e">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>Fibonnaci</mat-card-title>
+            <mat-card-subtitle>Cairo, Egito</mat-card-subtitle>
+          </mat-card-header>
+          <img
+            matCardImage
+            src="https://www.queroviajarmais.com/wp-content/uploads/2020/08/hotel-piramides-do-egito.jpg" class="imagem-hotel"
+          />
+          <mat-card-content>
+            Hotel 5 estrelas, com café da manhã gratuito!
+          </mat-card-content>
+          <mat-card-footer> 3222$ Por dia </mat-card-footer>
+        </mat-card>
+            <div class="registro-hotel">
+          <div class="inputs-hotel">
+            <h2>Faça seu Registro!</h2>
+            <h4>Dia da entrada ao Hotel</h4>
+            <mat-form-field appearance="fill">
+              <mat-label>Data de Entrada</mat-label>
+              <input matInput/>
+            </mat-form-field>
+            <h4>Dia da saida ao Hotel</h4>
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Data de Saida</mat-label>
+              <input matInput />
+            </mat-form-field>
+            <button mat-raised-button color="warn" class="botao">
+              Checar Disponibilidade
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </mat-tab>
+    <mat-tab label="Inglaterra">
+      <div class="primeiro-hotel-e">
+        <mat-card class="card">
+          <mat-card-header>
+            <mat-card-title>Fibonnaci</mat-card-title>
+            <mat-card-subtitle>Cairo, Egito</mat-card-subtitle>
+          </mat-card-header>
+          <img
+            matCardImage
+            src="https://images.trvl-media.com/hotels/2000000/1210000/1201500/1201481/5ffd3c0a.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" class="imagem-hotel"
+          />
+          <mat-card-content>
+            Hotel 5 estrelas, com café da manhã gratuito!
+          </mat-card-content>
+          <mat-card-footer> 3222$ Por dia </mat-card-footer>
+        </mat-card>
+            <div class="registro-hotel">
+          <div class="inputs-hotel">
+            <h2>Faça seu Registro!</h2>
+            <h4>Dia da entrada ao Hotel</h4>
+            <mat-form-field appearance="fill">
+              <mat-label>Data de Entrada</mat-label>
+              <input matInput/>
+            </mat-form-field>
+            <h4>Dia da saida ao Hotel</h4>
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Data de Saida</mat-label>
+              <input matInput />
+            </mat-form-field>
+            <button mat-raised-button color="warn" class="botao">
+              Checar Disponibilidade
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
 </div>

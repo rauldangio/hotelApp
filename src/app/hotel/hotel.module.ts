@@ -6,6 +6,18 @@ import { HotelComponent } from './hotel.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
+import {MatCardModule} from '@angular/material/card';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatStepperModule} from '@angular/material/stepper';
+
+
+
+
+
+
+
 
 
 
@@ -20,7 +32,15 @@ import {MatSelectModule} from '@angular/material/select';
     HotelRoutingModule,
     MatInputModule,
     MatButtonModule,
-    MatSelectModule
+    MatSelectModule,
+    MatTabsModule,
+    MatCardModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatStepperModule,
+
+
+
   ]
 })
 export class HotelModule {
