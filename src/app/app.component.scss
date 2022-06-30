@@ -11,8 +11,9 @@
   span{
     font-size: 1.5rem;
     color: #fff;
+    margin-right: 1rem;
   }
-  display: flex;
+    display: flex;
     justify-content: center;
     background-color: rgb(155, 5, 5);
 }
@@ -33,3 +34,12 @@
     color: #000;
   }
 }
+
+.logo{
+  max-width: 3vw;
+  max-height:3vw ;
+  margin-left: -6%;
+  position: absolute;
+}
+
+

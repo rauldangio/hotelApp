@@ -11,6 +11,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatStepperModule} from '@angular/material/stepper';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 
@@ -38,6 +40,7 @@ import {MatStepperModule} from '@angular/material/stepper';
     MatDatepickerModule,
     MatDialogModule,
     MatStepperModule,
+    MatIconModule
 
 
 
